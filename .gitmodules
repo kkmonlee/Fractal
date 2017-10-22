@@ -1,4 +1,0 @@
-[submodule "folly"]
-	path = folly
-	url = git@github.com:facebook/folly.git
-	branch = master
