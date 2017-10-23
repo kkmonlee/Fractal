@@ -4,7 +4,7 @@
 #include "../../folly/folly/Baton.h"
 #include "../../folly/folly/wangle/channel/Pipeline.h"
 
-namespace folly {
+namespace fractal {
     typedef folly::wangle::Pipeline<folly::IOBufQueue&, std::unique_ptr<folly::IOBuf>> DefaultPipeline;
 
     template <typename Pipeline>
